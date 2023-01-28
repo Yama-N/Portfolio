@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    font-family: "Lucida Bright";
+    font-size: 1rem;
+    color: #333333;
+    width: 1040px;
+    margin: 0 auto;
+    }
+
+/*****************ヘッダーここから**********************/
+header {
+    width: 100%;
+    height: 6.3rem;
+    background-color: #ffffff;
+    top: 0;
+    margin: auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+   }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+    padding: 60px 0 60px 60px;
+    font-size: 1.25rem;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin: 14px 0 14px 0;
+}
+
+/*****************ヘッダーここまで**********************/
+
+/*****************共通部分ここから**********************/
+h3 {
+    font-size: 1.25rem;
+    margin: 6.3rem 0;
+}
+
+.ambition_1, .ambition_2 {
+    font-family: "游明朝","Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro","HGS明朝E","メイリオ",Meiryo,serif;
+}
+
+
+/*****************共通部分ここまで**********************/
+
+/*****************トップイメージここから**********************/
+.top {
+    position: relative;
+}
+
+.topimage {
+    height: 100%;
+}
+
+.topimage img {
+    object-fit: cover;
+}
+
+h1 {
+	position: absolute;
+    color: #ffffff;
+    font-size: 5rem;
+    top: 12.9rem;
+    left: 20.3rem;
+}
+
+h2 {
+    position: absolute;
+    color: #ffffff;
+    font-size: 2.5rem;
+    top: 19.9rem;
+    left: 43rem;
+}
+/*****************トップイメージここまで**********************/
+
+/*****************ABOUTここから******************************/
+.about_all {
+    position: relative;
+}
+
+.about:after {
+    content: "";
+    background-color: #333;
+    height: 0.1px;
+    width: 900px;
+    margin-top: 18px;
+    margin-left: 16px;
+    position:absolute;
+}
+
+.ambition_1 {
+    font-size: 2rem;
+    margin-left: 4rem;
+}
+
+.ambition_2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.name {
+    margin-top: 6.3rem;
+    margin-bottom: 1.9rem;
+    font-size: 1.25rem;
+    position: absolute;
+    left: 35.0rem;
+}
+
+.self-introduction {
+    position: absolute;
+    font-size: 0.9rem;
+    left: 35.0rem;
+    margin-top: 8.5rem;
+}
+/*****************ABOUTここまで******************************/
+
+/*****************WORKSここから******************************/
+.works_all {
+    position: relative;
+    display: grid;
+    grid-template-columns: 515px;
+    margin-top: 12.5rem;
+}
+
+.works {
+    position: absolute;
+}
+
+.works:after {
+    content: "";
+    background-color: #333;
+    height: 0.1px;
+    width: 900px;
+    margin-top: 18px;
+    margin-left: 16px;
+    position:absolute;
+}
+
+.web_design {
+    position: absolute;
+    font-size: 1.25rem;
+    margin: 10rem 0 .3rem 2rem;
+}
+
+.web_application {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 14rem;
+}
+
+.web_application_sub {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 0.6rem;
+}
+
+.icon_box {
+    width: 21rem;
+    height: 10rem;
+    margin-left: 5.5rem;
+}
+
+.icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin:0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3.1rem;
+    margin-bottom: 3.1rem;
+}
+
+.Explanation_1, .Explanation_2, .Explanation_3 {
+    margin-bottom: 1.8rem;
+    font-size: 0.8rem;
+}
+
+.time {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+
+.season {
+    text-align: center;
+    margin-left: 2rem;
+    font-size: 0.8rem;
+}
+
+.mockup {
+    object-fit: contain;
+}
+
+
+
+.mockup {
+    width: 523px;
+    height: 704px;
+    
+}
+
+/*****************WORKSここまで******************************/
+
+
+
+
